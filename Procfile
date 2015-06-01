@@ -1,1 +1,1 @@
-web: honcho start -f Procfile.honcho
+web: bin/start-nginx -f honcho start -f Procfile.honcho

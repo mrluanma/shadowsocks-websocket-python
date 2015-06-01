@@ -1,2 +1,2 @@
-websockify: websockify 0.0.0.0:$PORT 127.0.0.1:$(($PORT+50))
+websockify: websockify 127.0.0.1:$(($PORT+10)) 127.0.0.1:$(($PORT+50))
 shadowsocks: ssserver -s 127.0.0.1 -p $(($PORT-50)) -k $KEY -m $METHOD
