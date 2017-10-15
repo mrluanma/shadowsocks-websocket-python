@@ -1,0 +1,14 @@
+{
+  "name": "shadowsocks-websocket-python",
+  "description": "shadowsocks over WebSocket, support Heroku.",
+  "env": {
+    "METHOD": {
+      "description": "encryption method",
+      "value": "aes-256-cfb"
+    },
+    "KEY": {
+      "description": "app-password",
+      "value": ""
+    }
+  }
+}
