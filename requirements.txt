@@ -1,4 +1,3 @@
 honcho==1.0.1
-numpy==1.14.5
 shadowsocks==2.6.11
-websockify==0.8.0
+websockify==0.9.0
